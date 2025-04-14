@@ -1,0 +1,121 @@
+# .NET build artifacts
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# NuGet
+packages/
+*.nupkg
+# Include dlls if they're part of the repository
+!packages/build/
+# NuGet v3's project.json files produces more ignored files
+*.nuget.props
+*.nuget.targets
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Local appsettings
+appsettings.*.json
+!appsettings.json
+appsettings.Development.json
+
+# Local test settings
+local.settings.json
+local-secrets.json
+App_Data/local-secrets.json
+
+# Azure credentials files
+*.publishsettings
+PublishScripts/
+
+# PowerShell scripts
+*.ps1
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# MassTransit
+.masstransit/
+.cache/
+
+# SQLite database files
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.rsuser
+*.DotSettings
+
+# Azure Storage Emulator
+*.sdf
+
+# EntityFramework
+.entityframeworkcore/
+
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+
+# Build output
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+FolderProfile.pubxml
+FolderProfile.pubxml.user
+
+# TestResults
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+*.testlog
+TestResults.xml
+
+# IDE specific files
+.idea/
+*.sln.iml
+*.sw?
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
