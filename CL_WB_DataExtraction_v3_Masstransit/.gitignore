@@ -65,6 +65,17 @@ PublishScripts/
 !scripts/*.ps1
 !important-script.ps1
 
+# Next.js / React frontend
+# Next.js build output
+.next/
+# Local env files
+.env*.local
+!.env.example
+# Vercel
+.vercel
+# Next.js output
+out/
+
 # Node.js
 node_modules/
 npm-debug.log
