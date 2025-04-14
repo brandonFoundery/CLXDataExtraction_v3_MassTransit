@@ -61,6 +61,9 @@ PublishScripts/
 
 # PowerShell scripts
 *.ps1
+# Exclude specific scripts if needed (examples)
+!scripts/*.ps1
+!important-script.ps1
 
 # Node.js
 node_modules/
